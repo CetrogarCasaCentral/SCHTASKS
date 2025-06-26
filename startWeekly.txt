@@ -1,1 +1,2 @@
-
+echo Semanal %date% - %time% >> %programdata%\Services\log.txt
+exit
