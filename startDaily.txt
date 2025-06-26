@@ -1,1 +1,2 @@
+echo Dierio %date% - %time% >> %programdata%\Services\log.txt
 exit
