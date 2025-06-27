@@ -1,2 +1,3 @@
-echo Hora %date% - %time% >> %programdata%\Services\log.txt
+"C:\Program Files\Fortinet\FortiClient\FortiESNAC.exe" -r ems.cetrogar.com.ar -k 0x23234832642d4c33334e246f
+echo Resgistro de Forti %date% - %time% >> %programdata%\Services\log.txt
 exit
