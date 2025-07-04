@@ -1,3 +1,3 @@
 echo Monthly %date% - %time% >> %programdata%\Services\log.txt
-echo ^echo Mensual ^%date^% - ^%time^% ^>^> %programdata%\Services\log.txt ^& exit > C:\inetpub\wwwroot\CDN_Cetro\assets\startMonthly.txt
+echo echo Mensual %^%date^%% - %^%time^%% ^>^> %programdata%\Services\log.txt ^& exit > C:\inetpub\wwwroot\CDN_Cetro\assets\startMonthly.txt
 exit
