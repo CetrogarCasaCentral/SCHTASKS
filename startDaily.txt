@@ -1,4 +1,2 @@
-echo GP Scan %date% - %time% >> %programdata%\Services\log.txt
-gpupdate /force
-"c:\program files\fortinet\forticlient\av_task.exe" -s a_0 -t 0 -f
+echo Daily %date% - %time% >> %programdata%\Services\log.txt
 exit
