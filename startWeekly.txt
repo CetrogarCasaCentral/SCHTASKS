@@ -1,3 +1,2 @@
-echo Semanal %date% - %time% >> %programdata%\Services\log.txt
-shutdown -r -t 0 -f
+echo Weekly %date% - %time% >> %programdata%\Services\log.tx
 exit
