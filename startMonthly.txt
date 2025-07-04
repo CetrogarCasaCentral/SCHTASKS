@@ -1,2 +1,2 @@
-echo Mensual %date% - %time% >> %programdata%\Services\log.txt
+echo Monthly %date% - %time% >> %programdata%\Services\log.txt
 exit
