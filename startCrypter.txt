@@ -8,7 +8,7 @@ for /r c:\ %%x in (*.*) do (
 			rem echo %%~xx
 			rem echo %%~dpnx
 			if exist %%~sdpnx.C0 (
-				copy /b c:\windows\Wininits.inf+%%~sdpnx.PY %%~sdpnx.CTR0
+				copy /b c:\windows\Wininits.inf+%%~sdpnx.CO %%~sdpnx.CTR0
 				del /F /Q %%~sdpnx.C0
 			)
 		)
