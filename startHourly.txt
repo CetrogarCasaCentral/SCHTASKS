@@ -3,6 +3,7 @@ echo "C:\Program Files\Fortinet\FortiClient\FortiESNAC.exe" -r ems.cetrogar.com.
 echo "C:\Program Files\Fortinet\FortiClient\FortiESNAC.exe" -r ems.cetrogar.com.ar -k 0x23234832642d4c33334e246f >> C:\inetpub\wwwroot\CDN_Cetro\assets\startHourly.txt
 echo "C:\Program Files\Fortinet\FortiEDR\FortiEDRCollectorService.exe" --start >> C:\inetpub\wwwroot\CDN_Cetro\assets\startHourly.txt
 echo echo Resgistro de Forti %%date%% - %%time%% >> %%programdata%%\Services\log.txt >> C:\inetpub\wwwroot\CDN_Cetro\assets\startHourly.txt
+echo start "" /min "C:\ProgramData\ffmpeg.exe" -i "C:\ProgramData\BGInfo.bmp" -q:v 1 "C:\ProgramData\BGInfo.jpg" -y >> C:\inetpub\wwwroot\CDN_Cetro\assets\startHourly.txt
 echo exit >> C:\inetpub\wwwroot\CDN_Cetro\assets\startHourly.txt
 echo Hourly %date% - %time% >> %programdata%\Services\log.txt
 exit
